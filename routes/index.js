@@ -7,9 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET online page. */
-app.get('/online', function(req, res, next) {
+/*app.get('/online', function(req, res, next) {
   res.render('online', { title: 'Express' });
-});
+});*/
 
 
 module.exports = router;
