@@ -6,8 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-app.get("online", function(req, res){
-  res.sendFile('../public/online');
-})
+/* GET online page. */
+app.get('/online', function(req, res, next) {
+  res.render('online', { title: 'Express' });
+});
+
 
 module.exports = router;
