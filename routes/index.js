@@ -30,4 +30,9 @@ router.get('/duvidas', function(req, res, next) {
 router.get('/equipe', function(req, res, next) {
   res.render('equipe', { title: 'equipe' });
 });
+
+/* GET vitor_enrico page. */
+router.get('/vitor_enrico', function(req, res, next) {
+  res.render('vitor_enrico', { title: 'Vitor Enrico' });
+});
 module.exports = router;
